@@ -1,7 +1,7 @@
 ﻿Int64[] elfcallories = new Int64[250];
 
 try{
-    using (var sr = new StreamReader("input1.txt")){
+    using (var sr = new StreamReader("input.txt")){
         int currentelf = 1;
         elfcallories[currentelf] = 0;
         String line;
